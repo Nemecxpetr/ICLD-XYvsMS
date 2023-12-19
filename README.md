@@ -1,4 +1,4 @@
-# Visualizint ICLD of XY vs. MS microphone techniques 
+# Visualising ICLD of XY vs. MS microphone techniques 
 Matlab application visualizing Inter-Channel Level Difference of XY and MS microphone techniques when being reproduced by stereo speaker configuration with specified angle.
 
 ## Installation
