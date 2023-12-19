@@ -3,7 +3,8 @@ Matlab application visualizing Inter-Channel Level Difference of XY and MS micro
 
 ## Installation
 
-This app can be install with the instalation file `XY_MS_ICDL.mlappinstall`. Only for matlab users.
+This app can be installed by Matlab users with the instalation file [`XY_MS_ICDL.mlappinstall`](/XY_MS_ICDL.mlappinstall).
+Only for matlab users.
 Then the app can be used from inside the matlab programme.
 
 ## Use
