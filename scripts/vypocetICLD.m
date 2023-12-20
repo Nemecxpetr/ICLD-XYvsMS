@@ -48,6 +48,8 @@ function [ICLD, ICLD_angle, phi, r1, r2, L, R] = vypocetICLD(recType, technique,
         
         %showImg("resources\MS.png", "MS")
         
+        % TODO WTF is going on here?
+        % Look at the energy graph of MS
         L = (M + S) / sqrt(2);
         R = (M - S) / sqrt(2);
     end
