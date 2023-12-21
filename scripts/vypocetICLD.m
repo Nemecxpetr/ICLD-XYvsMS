@@ -50,8 +50,8 @@ function [ICLD, ICLD_angle, phi, r1, r2, L, R] = vypocetICLD(recType, technique,
         
         % TODO WTF is going on here?
         % Look at the energy graph of MS
-        L = (M + S) / sqrt(2);
-        R = (M - S) / sqrt(2);
+        L = (M + S);
+        R = (M - S);
     end
     
     % shift back, so that center is at 90 degrees
@@ -67,7 +67,7 @@ function [ICLD, ICLD_angle, phi, r1, r2, L, R] = vypocetICLD(recType, technique,
 
     %% I dont know if this is correct but it is the easiest way to compare them
     if strcmpi(technique, 'ms')
-        ICLD(1:floor(end/2)) = -ICLD(1:floor(end/2));
+       ICLD(1:floor(end/2)) = -ICLD(1:floor(end/2));
     end
 
     ICLD_angle=alpha;
