@@ -9,3 +9,6 @@ Then the app can be used from inside the matlab program.
 ## Use
 
 ![Screenshot of the application window with the initial state.](/assets/images/initial_state.png)
+
+## 
+This app was created as part of final project for Electroacoustics 2 at Brno University of Technology
